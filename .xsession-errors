@@ -78,3 +78,5 @@ ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusExceptio
 (Thunar:1214): thunar-uca-WARNING **: 14:14:47.691: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
 
 (Thunar:1214): thunar-uca-WARNING **: 14:19:29.814: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
+
+(xfce4-terminal:2243): Gdk-CRITICAL **: 14:25:27.497: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
