@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Link
+Name=test
+Comment=test
+Icon=user-bookmarks
+URL=http://localhost:3000/cars

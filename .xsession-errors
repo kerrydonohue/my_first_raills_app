@@ -1,0 +1,80 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kerry/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/kerry
+dbus-update-activation-environment: setting USER=kerry
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/kerry
+dbus-update-activation-environment: setting HOME=/home/kerry
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=kerry
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/kerry/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1197): xfce4-session-WARNING **: 14:13:22.650: xfsm_manager_load_session: Something wrong with /home/kerry/.cache/sessions/xfce4-session-kerry-VirtualBox:0, Does it exist? Permissions issue?
+
+(xfsettingsd:1218): xfsettingsd-WARNING **: 14:13:23.216: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(polkit-gnome-authentication-agent-1:1274): GLib-CRITICAL **: 14:13:23.321: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1274): polkit-gnome-1-WARNING **: 14:13:23.321: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfdesktop:1216): thunar-uca-WARNING **: 14:13:32.976: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
+
+(nm-applet:1255): Gtk-WARNING **: 14:13:33.080: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1349): GLib-GIO-CRITICAL **: 14:13:33.095: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1349): GLib-GIO-CRITICAL **: 14:13:33.101: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1349): GLib-GObject-WARNING **: 14:13:33.106: invalid (NULL) pointer instance
+
+(wrapper-2.0:1349): GLib-GObject-CRITICAL **: 14:13:33.106: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1349): Gtk-WARNING **: 14:13:33.106: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1349): Gtk-WARNING **: 14:13:33.157: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1360): Gtk-WARNING **: 14:13:33.249: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (wrapper-2.0:1358): WARNING **: 14:13:33.278: No outputs have backlight property
+
+(wrapper-2.0:1329): Gtk-WARNING **: 14:13:33.290: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:1255): Gdk-CRITICAL **: 14:13:33.295: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1358): Gtk-WARNING **: 14:13:33.405: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+[Parent 1449, Gecko_IOThread] WARNING: pipe error (105): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(Thunar:1214): thunar-uca-WARNING **: 14:14:44.303: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
+
+(Thunar:1214): thunar-uca-WARNING **: 14:14:47.691: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
+
+(Thunar:1214): thunar-uca-WARNING **: 14:19:29.814: Failed to load `/home/kerry/.config/Thunar/uca.xml': Error on line 1 char 1: Document was empty or contained only whitespace
